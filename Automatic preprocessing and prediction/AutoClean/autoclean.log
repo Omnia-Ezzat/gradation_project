@@ -1,0 +1,50 @@
+17-11-2024 22:18:07.55 - INFO - Started validation of input parameters...
+17-11-2024 22:18:07.55 - INFO - Completed validation of input parameters
+17-11-2024 22:18:07.55 - INFO - Started handling of duplicates... Method: "AUTO"
+17-11-2024 22:18:07.55 - DEBUG - 0 missing values found
+17-11-2024 22:18:07.55 - INFO - Completed handling of duplicates in 0.003304 seconds
+17-11-2024 22:18:07.55 - INFO - Started handling of missing values...
+17-11-2024 22:18:07.55 - INFO - Found a total of 645 missing value(s)
+17-11-2024 22:18:07.55 - INFO - Started handling of NUMERICAL missing values... Method: "KNN"
+17-11-2024 22:18:07.58 - DEBUG - KNN imputation of 105 value(s) succeeded for feature "education"
+17-11-2024 22:18:07.59 - DEBUG - KNN imputation of 29 value(s) succeeded for feature "cigsPerDay"
+17-11-2024 22:18:07.61 - DEBUG - KNN imputation of 53 value(s) succeeded for feature "BPMeds"
+17-11-2024 22:18:07.62 - DEBUG - KNN imputation of 50 value(s) succeeded for feature "totChol"
+17-11-2024 22:18:07.62 - DEBUG - KNN imputation of 19 value(s) succeeded for feature "BMI"
+17-11-2024 22:18:07.63 - DEBUG - KNN imputation of 1 value(s) succeeded for feature "heartRate"
+17-11-2024 22:18:07.72 - DEBUG - KNN imputation of 388 value(s) succeeded for feature "glucose"
+17-11-2024 22:18:07.72 - INFO - Started handling of CATEGORICAL missing values... Method: "KNN"
+17-11-2024 22:18:07.72 - INFO - Completed handling of missing values in 0.16558 seconds
+17-11-2024 22:18:07.72 - INFO - Started handling of outliers... Method: "WINZ"
+17-11-2024 22:18:07.73 - DEBUG - Outlier imputation of 12 value(s) succeeded for feature "cigsPerDay"
+17-11-2024 22:18:07.75 - DEBUG - Outlier imputation of 124 value(s) succeeded for feature "BPMeds"
+17-11-2024 22:18:07.76 - DEBUG - Outlier imputation of 25 value(s) succeeded for feature "prevalentStroke"
+17-11-2024 22:18:07.78 - DEBUG - Outlier imputation of 109 value(s) succeeded for feature "diabetes"
+17-11-2024 22:18:07.79 - DEBUG - Outlier imputation of 57 value(s) succeeded for feature "totChol"
+17-11-2024 22:18:07.82 - DEBUG - Outlier imputation of 126 value(s) succeeded for feature "sysBP"
+17-11-2024 22:18:07.84 - DEBUG - Outlier imputation of 81 value(s) succeeded for feature "diaBP"
+17-11-2024 22:18:07.86 - DEBUG - Outlier imputation of 97 value(s) succeeded for feature "BMI"
+17-11-2024 22:18:07.87 - DEBUG - Outlier imputation of 76 value(s) succeeded for feature "heartRate"
+17-11-2024 22:18:07.91 - DEBUG - Outlier imputation of 262 value(s) succeeded for feature "glucose"
+17-11-2024 22:18:07.91 - INFO - Completed handling of outliers in 0.191318 seconds
+17-11-2024 22:18:07.91 - INFO - Skipped datetime feature conversion
+17-11-2024 22:18:07.91 - INFO - Skipped encoding of categorical features
+17-11-2024 22:18:07.91 - INFO - Started feature type conversion...
+17-11-2024 22:18:07.91 - DEBUG - Conversion to type INT succeeded for feature "male"
+17-11-2024 22:18:07.91 - DEBUG - Conversion to type INT succeeded for feature "age"
+17-11-2024 22:18:07.91 - DEBUG - Conversion to type INT succeeded for feature "education"
+17-11-2024 22:18:07.91 - DEBUG - Conversion to type INT succeeded for feature "currentSmoker"
+17-11-2024 22:18:07.91 - DEBUG - Conversion to type INT succeeded for feature "cigsPerDay"
+17-11-2024 22:18:07.92 - DEBUG - Conversion to type INT succeeded for feature "BPMeds"
+17-11-2024 22:18:07.92 - DEBUG - Conversion to type INT succeeded for feature "prevalentStroke"
+17-11-2024 22:18:07.92 - DEBUG - Conversion to type INT succeeded for feature "prevalentHyp"
+17-11-2024 22:18:07.92 - DEBUG - Conversion to type INT succeeded for feature "diabetes"
+17-11-2024 22:18:07.92 - DEBUG - Conversion to type INT succeeded for feature "totChol"
+17-11-2024 22:18:07.92 - DEBUG - Conversion to type FLOAT succeeded for feature "sysBP"
+17-11-2024 22:18:07.93 - DEBUG - Conversion to type FLOAT succeeded for feature "diaBP"
+17-11-2024 22:18:07.93 - DEBUG - Conversion to type FLOAT succeeded for feature "BMI"
+17-11-2024 22:18:07.93 - DEBUG - Conversion to type FLOAT succeeded for feature "heartRate"
+17-11-2024 22:18:07.93 - DEBUG - Conversion to type FLOAT succeeded for feature "glucose"
+17-11-2024 22:18:07.94 - DEBUG - Conversion to type INT succeeded for feature "TenYearCHD"
+17-11-2024 22:18:07.94 - INFO - Completed feature type conversion for 16 feature(s) in 0.025944 seconds
+17-11-2024 22:18:07.94 - INFO - AutoClean process completed in 0.390506 seconds
